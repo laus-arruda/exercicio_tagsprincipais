@@ -1,0 +1,99 @@
+/* configurações das cores */
+/* root - adm */
+:root{
+    --cor1:rgb(241, 229, 220);
+    --cor2:rgb(235, 220, 187);
+    --cor3:rgb(163, 161, 155);
+
+}
+
+
+/* configuração dos navegadores */
+* { 
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: auto;
+    margin:0 auto;
+    background-color:var(--cor2) ;
+}
+
+/* formatação do bory */
+
+body{
+    background-color: var(--cor1);
+}
+
+/* ---------- configurações main ---------- */
+
+main{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.carde{
+    padding-left: 35%;
+    padding-top: 10%;
+    padding-bottom: 30%;
+    
+}
+
+.card-title{
+    margin: 5%;
+    padding-top: 10px;
+   
+}
+
+.card-body a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ------------ formatação do rodapé ----------- */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: var(--cor3);
+}
+
+.uteis{
+    display: flex;
+    justify-content: space-around;
+    margin: -3% auto;
+}
+
+.linksuteis{
+   margin: 3%;
+}
+
+.linksuteis a{
+    font-size: 18px;
+    color: var(--cor1);
+    text-decoration: none;
+}
+
+.linksuteis a:hover{
+    color: var(--cor5);
+}
+
+.linksuteis li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
